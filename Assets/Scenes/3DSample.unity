@@ -554,10 +554,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 03a46c5d2ae6740cbbb108b142ec95f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 7
+  moveSpeed: 7.5
   turnSpeed: 90
-  mouseSensitivity: 1100
-  bobbingSpeed: 0.23
+  mouseSensitivity: 1150
+  bobbingSpeed: 0.013
   bobbingAmount: 0.07
 --- !u!136 &1809843671
 CapsuleCollider:
