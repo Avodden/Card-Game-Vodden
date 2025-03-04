@@ -751,9 +751,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 1569729814496028383, guid: 223410ce031db4cb8a332ae082f998db, type: 3}
   numberOfEnemies: 10
-  roomMin: {x: -18, y: 2, z: -18}
-  roomMax: {x: 18, y: 0, z: 18}
-  minDistance: 2
+  roomMin: {x: -20, y: 2, z: -20}
+  roomMax: {x: 20, y: 0, z: 20}
+  minDistance: 3
 --- !u!4 &1994721911
 Transform:
   m_ObjectHideFlags: 0
@@ -889,9 +889,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7507489276549521339, guid: d1613cf42edd94f66897dd830e4210c5, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 7594390719923738993, guid: d1613cf42edd94f66897dd830e4210c5, type: 3}
       propertyPath: turnSpeed
-      value: 100
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 7594390719923738993, guid: d1613cf42edd94f66897dd830e4210c5, type: 3}
+      propertyPath: mouseSensitivity
+      value: 1500
       objectReference: {fileID: 0}
     - target: {fileID: 8899631952686882468, guid: d1613cf42edd94f66897dd830e4210c5, type: 3}
       propertyPath: m_LocalPosition.x
