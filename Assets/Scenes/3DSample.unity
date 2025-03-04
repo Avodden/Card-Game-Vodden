@@ -751,8 +751,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 1569729814496028383, guid: 223410ce031db4cb8a332ae082f998db, type: 3}
   numberOfEnemies: 10
-  roomMin: {x: 0, y: 2, z: 0}
-  roomMax: {x: 10, y: 0, z: 10}
+  roomMin: {x: -18, y: 2, z: -18}
+  roomMax: {x: 18, y: 0, z: 18}
   minDistance: 2
 --- !u!4 &1994721911
 Transform:
@@ -887,7 +887,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 7507489276549521339, guid: d1613cf42edd94f66897dd830e4210c5, type: 3}
       propertyPath: m_Name
-      value: player
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7594390719923738993, guid: d1613cf42edd94f66897dd830e4210c5, type: 3}
+      propertyPath: turnSpeed
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8899631952686882468, guid: d1613cf42edd94f66897dd830e4210c5, type: 3}
       propertyPath: m_LocalPosition.x
